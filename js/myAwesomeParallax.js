@@ -1,7 +1,7 @@
 // parallax scrolling effect
 
 var $window = $(window);
-var velocity = 0.2;
+var velocity = 0.25;
 
 function update() {
 
@@ -10,8 +10,8 @@ function update() {
 	$("#about").each(function() {
 
 		var $element = $(this);
-		var height = $element.height();
-		$(this).css('backgroundPosition', '50% ' + Math.round((height - pos) * velocity) + 'px');
+		var height = $element.height() + 100;
+		$(this).css('backgroundPosition', '100% ' + Math.round((height - pos) * velocity) + 'px');
 
 	});
 };

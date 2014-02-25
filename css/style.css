@@ -1,32 +1,33 @@
+/* temp notice */
 #caution {
 	text-align: center;
-	margin-top: 100px;
+	margin-top: 25%;
 	color: white;
 	font-weight: bold;
+	font-size: 18pt;
 }
 
-
-
+/* navigation bg*/
 #nav {
 	background: url("../image/nav-bg.jpg") no-repeat center;
 	background-repeat: no-repeat;
 
 }
 
-
+/* front bg*/
 #home{
-	background: url("../image/front-page.jpg") no-repeat center fixed;
+	background: url("../image/red-bg.jpg") no-repeat center fixed;
 	height: 800px;
 	background-position: 100%;
 	background-size: cover;
-	opacity: 0.85;
+	opacity: 0.95;
 }
 
+/* about bg*/
 #about {
 	background: url("../image/myself1.jpg") no-repeat center;
-
+	background-size: cover;
 }
-
 
 #about-intro, #projects-intro, #contact-intro {
 	padding-top: 60px;
@@ -43,7 +44,6 @@
 
 
 #my-badge .col-md-2 {
-	
 	margin-top: 10%;
 	margin-bottom: 10%;
 	margin-left: 3%;
@@ -70,13 +70,8 @@
 	background-color: rgb(255, 190, 10);
 }
 
-
 .glyphicon {
 	font-size: 50px;
-}
-
-#about {
-	
 }
 
 #projects {
@@ -103,7 +98,6 @@ li a {
 
 #my-badge {
 	margin-top: 30px;
-
 }
 
 
@@ -148,7 +142,7 @@ li a {
 }
 
 #social-icon {
-
+	margin-top: 20%;
 }
 
 #social-icon i {
@@ -156,6 +150,11 @@ li a {
 }
 
 footer {
+	color: white;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background: url("../image/nav-bg.jpg") no-repeat center;
 	text-align: center;
+	
 }
 
