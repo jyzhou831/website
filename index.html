@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<title>Gary Jiayang Zhou</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+
+	<body data-spy="scroll" data-offset="50" data-target=".navbar-default">
+
+
+			<nav class="navbar navbar-default navbar-fixed-top" role="navigation" id="nav">
+				<div class="container-fluid">
+					<!-- mobile -->
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						
+					</div>
+					<!-- web -->
+	        		<div class="navbar-collapse collapse">
+	          			<ul class="nav navbar-nav">
+				            <li><a id="homeBtn" href="#home">HOME</a></li>
+				            <li><a id="aboutBtn" href="#about">ABOUT ME</a></li>
+				            <li><a id="projectsBtn" href="#projects">PROJECTS</a></li>
+				            <li><a id="contactBtn" href="#contact">CONTACT</a></li>
+	          			</ul>
+					</div>
+				</div>
+			</nav>
+
+			<!-- front page -->
+			<section class="container-fluid" id="home">
+				<div class="row">
+					<h1>
+						<span id="self-intro">I'M A FRONT-END DEVELOPER</span>
+					</h1>
+				</div>	
+
+			</section>
+
+
+			<!-- about section -->
+			<section class="container-fluid" id="about">
+				<div class="row">
+					<div>
+						<div id="about-intro">
+							<span class="glyphicon glyphicon-user"></span><br>
+							ABOUT ME
+						</div>
+					</div>
+
+				</div>
+
+				
+				<div class="row" id="my-badge">
+					<div class="col-md-3">
+						<img class="img-responsive" src="image/uw-logo.jpg" alt="hcde-logo">
+					</div>
+
+					<div class="col-md-3">
+						<img class="img-responsive" src="image/hcde-logo.png" alt="hcde-logo">
+					</div>
+				
+				</div>
+				
+
+			</section>
+
+
+			
+			<!-- project section -->
+			<section class="container-fluid" id="projects">
+				<div class="row">
+					<div id="projects-intro">
+						<span class="glyphicon glyphicon-wrench"></span><br>
+						PROJECTS<br>
+					</div>
+					
+					<div class="row" id="showcase">
+						
+						<div class="col-sm-4 col-xs-8 project-item" id="wireframe">
+							<div id="ipad">
+								<img class="img-responsive" src="image/wireframe.png" alt="cultivate-wireframe">
+							</div>
+
+							<div class="caption">
+								<h4>
+									Reservation System<br>
+									<small>Wireframe</small>
+								</h4>
+
+								<span class="glyphicon glyphicon-search project-lookup"></span>
+							</div>
+						</div>
+
+
+						<div class="col-sm-4 col-xs-8 project-item" id="info-viz">
+							<div id="ipad">
+								<img class="img-responsive" src="image/visualization.jpg" alt="visualization">
+							</div>
+							<div class="caption">
+								<h4>
+									Information Visualization<br>
+									<small>Illustrator</small>
+								</h4>
+								<span class="glyphicon glyphicon-search project-lookup"></span>
+							</div>
+						</div>
+				
+
+					</div>
+				</div>
+
+			</section>
+
+			<!-- contact section -->
+			<section class="container-fluid" id="contact">
+				<div class="row">
+					<div id="contact-intro">
+			
+						<span class="glyphicon glyphicon-envelope"></span><br>
+						CONTACT<br>
+					
+					</div>
+				</div>
+			</section>			
+
+		
+		<script src="js/jquery-1.11.0.min.js"></script>
+		<script src="js/bootstrap.js"></script>
+		<script src="js/scrolld.min.js"></script>
+		<script type="text/javascript">
+		$("[id*='Btn']").stop(true).on('click',function(e){e.preventDefault();$(this).scrolld();});
+		</script>
+		<!-- <script src="js/myparallax.js"></script> -->
+
+	</body>
+</html>

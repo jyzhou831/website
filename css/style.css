@@ -1,0 +1,118 @@
+
+
+#nav {
+	background: url("../image/nav-bg.jpg") no-repeat center;
+	background-repeat: no-repeat;
+
+}
+
+
+#home{
+	background: url("../image/front-page.jpg") no-repeat center;
+	height: 800px;
+	background-position: 100%;
+	background-size: cover;
+	opacity: 0.85;
+}
+
+
+#about-intro, #projects-intro, #contact-intro {
+	padding-top: 70px;
+	padding-bottom: 70px;
+	font-weight: bold;
+	text-align: center;
+	font-size: 30px;
+	color: white;
+}
+
+#about-intro {
+	background-color: rgb(106, 200, 200);
+}
+
+
+#projects-intro {
+	background-color: rgb(249, 124, 57);
+}
+
+#contact-intro {
+	background-color: rgb(255, 190, 10);
+}
+
+
+.glyphicon {
+	font-size: 50px;
+}
+
+#about {
+	height: 800px;
+}
+
+#projects {
+	margin-bottom: 30px;
+}
+
+#contact {
+	height: 800px;
+}
+
+li a {
+	font-size: 12px;
+	font-weight: bold;
+	-webkit-transition: all 0.5s ease 0s;
+	-webkit-transition-property: all;
+	-webkit-transition-duration: 0.5s;
+	-webkit-transition-timing-function: ease;
+	-webkit-transition-delay: 0s;
+	-moz-transition: all 0.5s ease 0s;
+	-ms-transition: all 0.5s ease 0s;
+	-o-transition: all 0.5s ease 0s;
+	transition: all 0.5s ease 0s;
+}
+
+#my-badge {
+	margin-top: 30px;
+
+}
+
+
+.col-xs-2 {
+	margin-left: 10px;
+	margin-right: 10px;
+	position: relative;
+}
+
+#showcase {
+	margin-top: 10px;
+	
+}
+
+.project-item {
+	border: 1px solid #efefef;
+}
+
+#wireframe {
+	float: left;
+	margin-left: 100px;
+}
+
+#info-viz {
+	float: right;
+	margin-right: 100px;
+}
+
+#ipad {
+	margin-top: 15px;
+}
+
+
+.caption {
+	text-align: center;
+	padding: 10px 10px;
+	position: relative;
+}
+
+.project-lookup {
+	font-size: 18pt;
+}
+
+
