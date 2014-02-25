@@ -1,11 +1,13 @@
+// parallax scrolling effect
+
 var $window = $(window);
-var velocity = 0.1;
+var velocity = 0.2;
 
 function update() {
 
 	var pos = $window.scrollTop();
 
-	$("#intro").each(function() {
+	$("#about").each(function() {
 
 		var $element = $(this);
 		var height = $element.height();

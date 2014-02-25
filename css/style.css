@@ -1,3 +1,10 @@
+#caution {
+	text-align: center;
+	margin-top: 100px;
+	color: white;
+	font-weight: bold;
+}
+
 
 
 #nav {
@@ -8,17 +15,22 @@
 
 
 #home{
-	background: url("../image/front-page.jpg") no-repeat center;
+	background: url("../image/front-page.jpg") no-repeat center fixed;
 	height: 800px;
 	background-position: 100%;
 	background-size: cover;
 	opacity: 0.85;
 }
 
+#about {
+	background: url("../image/myself1.jpg") no-repeat center;
+
+}
+
 
 #about-intro, #projects-intro, #contact-intro {
-	padding-top: 70px;
-	padding-bottom: 70px;
+	padding-top: 60px;
+	padding-bottom: 60px;
 	font-weight: bold;
 	text-align: center;
 	font-size: 30px;
@@ -27,6 +39,26 @@
 
 #about-intro {
 	background-color: rgb(106, 200, 200);
+}
+
+
+#my-badge .col-md-2 {
+	
+	margin-top: 10%;
+	margin-bottom: 10%;
+	margin-left: 3%;
+	
+}
+
+#my-badge .img-responsive {
+	padding-top: 13px;
+}
+
+.my-title {
+	font-size: 10pt;
+	font-weight: bold;
+	color: white;
+	text-transform: uppercase;
 }
 
 
@@ -44,7 +76,7 @@
 }
 
 #about {
-	height: 800px;
+	
 }
 
 #projects {
@@ -115,4 +147,15 @@ li a {
 	font-size: 18pt;
 }
 
+#social-icon {
+
+}
+
+#social-icon i {
+	padding: 10px;
+}
+
+footer {
+	text-align: center;
+}
 

@@ -5,12 +5,18 @@
 		<title>Gary Jiayang Zhou</title>
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
-		<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+		<link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+		<meta http-equiv="Content-Type" content="Type=text/html; charset=utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="author" content="Gary Jiayang Zhou" />
+		<meta name="description" content="Gary Jiayang Zhou"/>
+		<meta name="keywords" content="Gary Jiayang Zhou" />
+		<!-- SEO -->
+
 	</head>
 
 	<body data-spy="scroll" data-offset="50" data-target=".navbar-default">
-
 
 			<nav class="navbar navbar-default navbar-fixed-top" role="navigation" id="nav">
 				<div class="container-fluid">
@@ -39,9 +45,11 @@
 			<!-- front page -->
 			<section class="container-fluid" id="home">
 				<div class="row">
-					<h1>
-						<span id="self-intro">I'M A FRONT-END DEVELOPER</span>
-					</h1>
+					
+					<p id="caution">
+						Site Under Construction! Check Back soon :-) <br>
+						-Gary
+					</p>
 				</div>	
 
 			</section>
@@ -50,28 +58,42 @@
 			<!-- about section -->
 			<section class="container-fluid" id="about">
 				<div class="row">
-					<div>
-						<div id="about-intro">
-							<span class="glyphicon glyphicon-user"></span><br>
-							ABOUT ME
-						</div>
+					<div id="about-intro">
+						<span class="glyphicon glyphicon-user"></span><br>
+						ABOUT ME
 					</div>
-
 				</div>
 
 				
-				<div class="row" id="my-badge">
-					<div class="col-md-3">
+				<div class="row" id="my-badge" align="center">
+					
+					<div class="col-md-2">
 						<img class="img-responsive" src="image/uw-logo.jpg" alt="hcde-logo">
+						<span class="my-title">Junior at UW</span>
 					</div>
 
-					<div class="col-md-3">
+					<div class="col-md-2">
 						<img class="img-responsive" src="image/hcde-logo.png" alt="hcde-logo">
+						<span class="my-title">Major in HCDE </span>
 					</div>
 				
-				</div>
-				
+					<div class="col-md-2">
+						<img class="img-responsive" src="image/developer.jpg" alt="hcde-logo">
+						<span class="my-title">UI/UX Developer</span>
+					</div>	
 
+					<div class="col-md-2">
+						<img class="img-responsive" src="image/pool.jpg" alt="hcde-logo">
+						<span class="my-title">Pro Swimmer</span>
+					</div>
+
+					<div class="col-md-2">
+						<img class="img-responsive" src="image/wheel-throwing.jpg" alt="hcde-logo">
+						<span class="my-title">Wheel Thrown Artist</span>
+					</div>	
+
+				</div>
+		
 			</section>
 
 
@@ -128,19 +150,53 @@
 			
 						<span class="glyphicon glyphicon-envelope"></span><br>
 						CONTACT<br>
-					
+						
 					</div>
+
+					<table id="social-icon" align="center">
+						<tr>
+							<td>
+								<i class="fa fa-facebook-square fa-5x"></i>
+							</td>
+
+							<td>
+								<i class="fa fa-google-plus-square fa-5x"></i>
+							</td>
+
+							<td>
+								<i class="fa fa-linkedin-square fa-5x"></i>
+							</td>
+
+							<td>
+								<i class="fa fa-twitter-square fa-5x"></i>
+							</td>
+
+						</tr>
+						
+						
+					</table>
+
 				</div>
-			</section>			
+			</section>
+
+
+
+			<footer>
+				<p>
+					&copy 2014 Gary Jiayang Zhou
+				</p>
+			</footer>		
 
 		
 		<script src="js/jquery-1.11.0.min.js"></script>
 		<script src="js/bootstrap.js"></script>
 		<script src="js/scrolld.min.js"></script>
+		<script src="js/hoverpop.js"></script>
+		<script src="js/myAwesomeParallax.js"></script>
 		<script type="text/javascript">
 		$("[id*='Btn']").stop(true).on('click',function(e){e.preventDefault();$(this).scrolld();});
 		</script>
-		<!-- <script src="js/myparallax.js"></script> -->
+		
 
 	</body>
 </html>
