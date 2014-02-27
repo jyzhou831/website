@@ -1,19 +1,26 @@
-// parallax scrolling effect
+// parallax scrolling effect (may not suitable for resolution lower than 1140px in width)
 
 var $window = $(window);
-var velocity = 0.25;
+var speed = 0.4;
 
 function update() {
 
-	var pos = $window.scrollTop();
-
 	$("#about").each(function() {
 
-		var $element = $(this);
-		var height = $element.height() + 100;
-		$(this).css('backgroundPosition', '100% ' + Math.round((height - pos) * velocity) + 'px');
+		var position = $window.scrollTop();
 
+		var $element = $(this);
+		
+		var height = $element.height() + 165;
+		
+		var newPos = Math.round((height - position) * speed);
+		
+		if (newPos > -95) {
+			$(this).css("backgroundPosition", "100% " + newPos + "px");
+		};
+		
+		//$(this).css("backgroundPosition", "50% " + Math.round((height - position) * speed) + "px");
+		
 	});
 };
-
 $window.bind("scroll", update);
